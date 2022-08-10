@@ -6,14 +6,12 @@ how to add psych engine fps to your game!!!
 
 2. Go into Main.hx and remove this code. 
 
-		```
 		#if !mobile
 		addChild(new FPS(10, 3, 0xFFFFFF));
 		#end 
-``` 
+          
 3. Paste this new FPS into Main.hx  
  
-		```
 		#if !mobile
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
@@ -23,13 +21,13 @@ how to add psych engine fps to your game!!!
 			fpsVar.visible = ClientPrefs.showFPS;
 		}
 		#end
-```  
+
 4. import this code on Main.hx 
 
-		```
+
 	import openfl.display.StageScaleMode; 
 	import ClientPrefs; 
-```  
+    
 Now you add psych engine fps into your engine!!! 
 
 # Credits  
