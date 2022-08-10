@@ -8,7 +8,7 @@ class ClientPrefs {
     //fps thing 
     public static var showFPS:Bool = true;
     //The fps that the game is playing 
-    public static var framerate:Int = 60;
+    public static var framerate:Int = 120;
 
 
    public static function saveSettings(){ 
