@@ -25,7 +25,8 @@ how to add psych engine fps to your game!!!
 4. import this code on Main.hx 
 
 
-	import openfl.display.StageScaleMode; 
+	import openfl.display.StageScaleMode;
+	
 	import ClientPrefs; 
     
 Now you add psych engine fps into your engine!!! 
