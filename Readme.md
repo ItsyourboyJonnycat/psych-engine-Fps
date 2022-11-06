@@ -11,12 +11,12 @@ how to add psych engine fps to your game!!!
 		#end 
 		 
 		 
-4. paste the fps var next to skip splash
+3. paste the fps var next to skip splash
 ```
 public static var fpsVar:FPS;
 ```       
 
-5. Paste this new FPS into Main.hx  
+4. Paste this new FPS into Main.hx  
  
 		#if !mobile
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
@@ -28,7 +28,7 @@ public static var fpsVar:FPS;
 		}
 		#end
 
-4. import this code on Main.hx  
+5. import this code on Main.hx  
 ```
 import openfl.display.StageScaleMode;
 import ClientPrefs; 
