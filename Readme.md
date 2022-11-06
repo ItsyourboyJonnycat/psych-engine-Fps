@@ -29,11 +29,9 @@ public static var fpsVar:FPS;
 		#end
 
 4. import this code on Main.hx 
-       ```
 	import openfl.display.StageScaleMode;
-	
 	import ClientPrefs; 
-        ```
+      
 Now you add psych engine fps into your engine!!! 
 
 # Credits  
