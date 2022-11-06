@@ -9,11 +9,13 @@ how to add psych engine fps to your game!!!
 		#if !mobile
 		addChild(new FPS(10, 3, 0xFFFFFF));
 		#end 
-		
+		 
+		 
 4. paste the fps var next to skip splash
-
+```
 public static var fpsVar:FPS;
-          
+```       
+
 5. Paste this new FPS into Main.hx  
  
 		#if !mobile
